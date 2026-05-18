@@ -86,7 +86,7 @@ Quantitative framework for measuring when LLMs surrender independent reasoning u
 
 - **Founded UCAR** (2023, Tashkent) — U-Start Demo Day **1st place** + 85M UZS grant; Korea-Uzbekistan Startup Exchange **2nd place in Seoul**
 - **Youngest student in UJC's PMP-43 senior executive cohort**
-- **Full scholarship to Zhejiang University**
+- **Scholarship to Zhejiang University**
 - **Foundation Year at Leeds Beckett University**, UK
 - **Kaggle SPR Mammography: 7/371** (Top 1.9%, Medical AI)
 - **CVPR 2026 Gait Challenge: 2nd of 56** (sub40 = 0.90271)
