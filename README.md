@@ -13,10 +13,17 @@ I'm building open-source LLM governance infrastructure: model evaluation, agent 
 | 1 | [**FORGE**](https://github.com/SRKRZ23/ibm-bob-forge) | IBM Bob Hackathon | $10K | ✅ Submitted May 17 |
 | 2 | [**CITADEL**](https://github.com/SRKRZ23/citadel) | Gemma 4 Good Hackathon | $200K (3 tracks) | ✅ Submitted May 18 |
 | 3 | [**SOUF AI**](https://github.com/SRKRZ23/souf-ai) | TechEx Veea Hackathon | NVIDIA DGX Spark | ✅ Submitted May 18 |
-| 4 | **ATLAS** | AI Agent Olympics | $28K+ | ⏳ Submitting May 19 |
+| 4 | [**ATLAS**](https://github.com/SRKRZ23/atlas) | Milan AI Week Hackathon | $32K+ (7 tracks) | ✅ Submitted May 19 |
 | 5 | **ECB v2** | arXiv submission | Academic | ⏳ Next week |
 
-**Total prize-eligibility this week: $238K+**
+**Total prize-eligibility this week: $242K+**
+
+## 📣 As featured in (build-in-public)
+
+Four-of-five hackathons submitted in one week. Full ecosystem story posted on:
+- 💼 [**LinkedIn**](https://www.linkedin.com/posts/sardor-razikov-569a5327b_atlas-enterprise-multi-agent-system-ai-activity-7462457002317975552-ADGR) — long-form with resource compounding breakdown
+- 🐦 [**X / Twitter thread**](https://x.com/SardorRazi99093/status/2056690128613970060) — 5-tweet thread with sponsor tags
+- 📘 [**Facebook**](https://www.facebook.com/share/p/1Nr4M2WhUG/) — Russian personal long-form
 
 ---
 
