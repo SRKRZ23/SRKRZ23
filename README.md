@@ -56,7 +56,7 @@ Four-of-five hackathons submitted in one week. Full ecosystem story posted on:
 
 ## ⚡ Resource Compounding Story
 
-I shipped 4 hackathon submissions in 30 hours via **shared infrastructure earned from prior submissions**:
+I shipped 4 hackathon submissions in 3 days (May 17–19) via **shared infrastructure earned from prior submissions**:
 
 - 🔥 **AMD MI300X GPU access** (earned at REPOMIND, AMD Hackathon May 11) → real Gemma 3 27B benchmark in CITADEL (87.5% authority resistance, 72.8 tok/s on 192GB HBM3)
 - 🔧 **IBM Bob coding agent credits** (40 Bobcoins from IBM Bob Hackathon) → 27 to FORGE + 13 to CITADEL extension (multilingual prompts, edge adapters, compliance docs)
@@ -69,7 +69,7 @@ Each prize funds the next submission. Each architecture decision pays for two mo
 ## 📊 Active Open-Source Products
 
 ### [SOUF AI](https://github.com/SRKRZ23/souf-ai) — Sub-millisecond LLM Governance
-F1=1.000 on 231 adversarial prompts across 5 benchmarks. **1000× faster than Lakera Guard.** Built-in HIPAA + PCI-DSS packs. Ed25519-signed audit chain.
+F1=1.000 on 231 adversarial prompts across 5 benchmarks. **1,800× faster than Meta Prompt Guard 2** (measured 0.079ms vs 92.4ms on A100 per Meta's model card). Built-in HIPAA + PCI-DSS packs. Ed25519-signed audit chain.
 [Video walkthrough](https://youtu.be/IwLt1OTehcQ) · [Lablab submission](https://lablab.ai/ai-hackathons/techex-intelligent-enterprise-solutions-hackathon/souf-ai/souf-ai-sub-millisecond-llm-governance)
 
 ### [CITADEL](https://github.com/SRKRZ23/citadel) — Open AI Evaluation Infrastructure
@@ -79,6 +79,10 @@ F1=1.000 on 231 adversarial prompts across 5 benchmarks. **1000× faster than La
 ### [FORGE](https://github.com/SRKRZ23/ibm-bob-forge) — LLM Security Policy Generator
 OWASP LLM Top 10 mapping → YAML policies → BobShell audit trail. Built with IBM Bob coding agent.
 [Video walkthrough](https://youtu.be/_9PXGN_nxn8)
+
+### [ATLAS](https://github.com/SRKRZ23/atlas) — Enterprise Multi-Agent System with Governance
+6-layer governed pipeline: Voice → SOUF AI DPI gate → Gemini orchestrator → Featherless router → Tool executor → Ed25519 audit. 29/29 tests PASS in under 1 second. All 5 Milan AI Week sponsors integrated (Speechmatics + Featherless + Gemini + Vultr + Kraken).
+[Video walkthrough](https://youtu.be/i78OdyRYiOs) · [Lablab submission](https://lablab.ai/ai-hackathons/milan-ai-week-hackathon/atlas/atlas-enterprise-multi-agent-governance)
 
 ### [REPOMIND](https://github.com/SRKRZ23/repomind) — Repo-Scale Coding Agent on AMD MI300X
 Open-source large-context (256K) FP8 inference on AMD MI300X. AMD Developer Hackathon 2026.
