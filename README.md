@@ -2,29 +2,37 @@
 
 **Independent AI/ML engineer · Cost-efficient & on-prem LLM infrastructure · AI governance · Tashkent, Uzbekistan**
 
-I build open-source infrastructure for running LLMs affordably and safely — cost routing & metering, on-prem/local-first inference, model evaluation, and agent governance. AMD Developer Hackathon **ACT I winner** (REPOMIND). Latest: **[Frugal](https://github.com/SRKRZ23/frugal)** — the layer that keeps agent inference cheap, local, and verified.
+I build open-source infrastructure for running LLMs affordably and safely — cost routing & metering, on-prem/local-first inference, model evaluation, and agent governance. AMD Developer Hackathon **ACT I winner** (REPOMIND); **[REPOMIND v3](https://github.com/SRKRZ23/repomind)** submitted to ACT II. Latest OSS: **[Frugal](https://github.com/SRKRZ23/frugal)** — the layer that keeps agent inference cheap, local, and verified.
 
 ---
 
-## 🌟 Featured — Frugal (open-source LLM cost ops)
+## 🚀 REPOMIND v3 — on-prem AI coding agent + LLM cost-router
 
-<p align="center"><a href="https://github.com/SRKRZ23/frugal"><img src="https://raw.githubusercontent.com/SRKRZ23/frugal/main/assets/banner.png" alt="Frugal" width="100%"></a></p>
+<p align="center"><a href="https://github.com/SRKRZ23/repomind"><img src="assets/repomind-v3-banner.png" alt="REPOMIND v3 — repo-scale coding on your own silicon · AMD MI300X" width="100%"></a></p>
+
+**[REPOMIND v3](https://github.com/SRKRZ23/repomind)** — a repo-scale AI coding agent that runs **entirely on
+your own hardware**, plus an LLM **cost-router** that keeps token spend down. Built for regulated / air-gapped
+teams the cloud isn't allowed to touch. Submitted to the **AMD Developer Hackathon ACT II** (Track 3 · Unicorn).
+
+- 🧠 **256K-context** repository understanding on a **single AMD MI300X** (FP8 KV cache)
+- ⚡ Measured: **31/31** parallel users @ 8K–64K · **$4.12** total compute (124 min) · **−89–90%** cost via the router
+- 🥇 Builds on **REPOMIND**, which **WON 1st place** at AMD Developer Hackathon **ACT I** (AI Agents + *Outstanding Social Engagement*) — prize: AMD Radeon AI PRO R9700 GPU + cash
+- 📋 ACT II status: **qualified in the automated pre-screen** — the human panel decides the final result (not yet won)
+- ★ **[Repo → SRKRZ23/repomind](https://github.com/SRKRZ23/repomind)**
+
+## 🌟 Frugal — open-source LLM cost-ops
+
+<p align="center"><a href="https://github.com/SRKRZ23/frugal"><img src="assets/frugal-banner.png" alt="Frugal — run AI agents cheap, local, and verified" width="100%"></a></p>
 
 **[Frugal](https://github.com/SRKRZ23/frugal)** — run AI agents cheap, local, and verified. Meters every
 model call, routes the cheap/local model first, and escalates to a strong model only when a real check
 fails — then proves quality in CI. Inference is now **~85% of the enterprise AI budget** (Uber burned its
-whole 2026 coding budget by April; one firm spent $500M/mo on Claude) — Frugal routes around it.
+whole 2026 coding budget by April; one firm spent **$500M on Claude in a single month**) — Frugal routes around it.
 
 - 📊 Measured on a real cluster: a **3B model matched a 14B on 83% of hard tasks**, ~4.7–11× faster → **~75–97% cheaper**
-- 🧪 **56 tests**, CI green, 0 runtime deps · 8 real bugs found & fixed by our own pressure/fuzz/concurrency suites
-- 💸 Modeled enterprise saving: at **$10M/mo** inference spend → **$60–90M/yr** ([math + company roster](https://github.com/SRKRZ23/frugal/blob/main/ENTERPRISE.md))
+- 🧪 **56 tests**, CI green, 0 runtime deps · real bugs found & fixed by our own pressure / fuzz / concurrency suites
+- 💸 Modeled enterprise saving: at **$10M/mo** inference spend → **$60–90M/yr** ([roster + math on the live site](https://frugal-cost-router.netlify.app/#enterprise))
 - 🌐 **[Live site + interactive deck](https://frugal-cost-router.netlify.app)** · ★ **[Repo](https://github.com/SRKRZ23/frugal)** · Apache-2.0
-
-## 🏆 Recent highlights (2026)
-
-- 🥇 **REPOMIND — WON 1st place**, AMD Developer Hackathon **ACT I** (AI Agents track) **+ Outstanding Social Engagement** — prize: AMD Radeon AI PRO R9700 GPU + cash. [repo](https://github.com/SRKRZ23/repomind)
-- 🚀 **REPOMIND v3** — submitted to AMD Developer Hackathon **ACT II** (Track 3 · Unicorn); qualified in the automated pre-screen (human panel pending). On-prem coding agent + LLM cost-router.
-- 🌟 **Frugal** — new open-source LLM cost-routing / eval / MCP toolkit (above).
 
 ---
 
