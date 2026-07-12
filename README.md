@@ -2,15 +2,15 @@
 
 **Independent AI/ML engineer · Cost-efficient & on-prem LLM infrastructure · AI governance · Tashkent, Uzbekistan**
 
-I build open-source infrastructure for running LLMs affordably and safely — cost routing & metering, on-prem/local-first inference, model evaluation, and agent governance. AMD Developer Hackathon **ACT I winner** (REPOMIND); **[REPOMIND v3](https://github.com/SRKRZ23/repomind)** submitted to ACT II. Latest OSS: **[Frugal](https://github.com/SRKRZ23/frugal)** — the layer that keeps agent inference cheap, local, and verified.
+I build open-source infrastructure for running LLMs affordably and safely — cost routing & metering, on-prem/local-first inference, model evaluation, and agent governance. AMD Developer Hackathon **ACT I winner** (REPOMIND); **[REPOMIND v3](https://github.com/SRKRZ23/repomind-v3)** submitted to ACT II. Latest OSS: **[Frugal](https://github.com/SRKRZ23/frugal)** — the layer that keeps agent inference cheap, local, and verified.
 
 ---
 
 ## 🚀 REPOMIND v3 — on-prem AI coding agent + LLM cost-router
 
-<p align="center"><a href="https://github.com/SRKRZ23/repomind"><img src="assets/repomind-v3-banner.png" alt="REPOMIND v3 — repo-scale coding on your own silicon · AMD MI300X" width="100%"></a></p>
+<p align="center"><a href="https://github.com/SRKRZ23/repomind-v3"><img src="assets/repomind-v3-banner.png" alt="REPOMIND v3 — repo-scale coding on your own silicon · AMD MI300X" width="100%"></a></p>
 
-**[REPOMIND v3](https://github.com/SRKRZ23/repomind)** — a repo-scale AI coding agent that runs **entirely on
+**[REPOMIND v3](https://github.com/SRKRZ23/repomind-v3)** — a repo-scale AI coding agent that runs **entirely on
 your own hardware**, plus an LLM **cost-router** that keeps token spend down. Built for regulated / air-gapped
 teams the cloud isn't allowed to touch. Submitted to the **AMD Developer Hackathon ACT II** (Track 3 · Unicorn).
 
@@ -18,7 +18,7 @@ teams the cloud isn't allowed to touch. Submitted to the **AMD Developer Hackath
 - ⚡ Measured: **31/31** parallel users @ 8K–64K · **$4.12** total compute (124 min) · **−89–90%** cost via the router
 - 🥇 Builds on **REPOMIND**, which **WON 1st place** at AMD Developer Hackathon **ACT I** (AI Agents + *Outstanding Social Engagement*) — prize: AMD Radeon AI PRO R9700 GPU + cash
 - 📋 ACT II status: **qualified in the automated pre-screen** — the human panel decides the final result (not yet won)
-- ★ **[Repo → SRKRZ23/repomind](https://github.com/SRKRZ23/repomind)**
+- ★ **[Repo → SRKRZ23/repomind-v3](https://github.com/SRKRZ23/repomind-v3)**
 
 ## 🌟 Frugal — open-source LLM cost-ops
 
