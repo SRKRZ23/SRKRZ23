@@ -1,29 +1,30 @@
 # Hi, I'm Sardor 👋
 
-**Independent AI safety researcher · Solo founder of a 4-product AI safety ecosystem · Tashkent, Uzbekistan**
+**Independent AI/ML engineer · Cost-efficient & on-prem LLM infrastructure · AI governance · Tashkent, Uzbekistan**
 
-I'm building open-source LLM governance infrastructure: model evaluation, agent security, policy generation, and multi-agent orchestration. All MIT licensed. All sharing one Ed25519 audit chain.
+I build open-source infrastructure for running LLMs affordably and safely — cost routing & metering, on-prem/local-first inference, model evaluation, and agent governance. AMD Developer Hackathon **ACT I winner** (REPOMIND). Latest: **[Frugal](https://github.com/SRKRZ23/frugal)** — the layer that keeps agent inference cheap, local, and verified.
 
 ---
 
-## 🚀 This Week's Submissions (May 17–20, 2026)
+## 🌟 Featured — Frugal (open-source LLM cost ops)
 
-| # | Product | Hackathon | Prize | Status |
-|---|---------|-----------|-------|--------|
-| 1 | [**FORGE**](https://github.com/SRKRZ23/ibm-bob-forge) | IBM Bob Hackathon | $10K | ✅ Submitted May 17 |
-| 2 | [**CITADEL**](https://github.com/SRKRZ23/citadel) | Gemma 4 Good Hackathon | $200K (3 tracks) | ✅ Submitted May 18 |
-| 3 | [**SOUF AI**](https://github.com/SRKRZ23/souf-ai) | TechEx Veea Hackathon | NVIDIA DGX Spark | ✅ Submitted May 18 |
-| 4 | [**ATLAS**](https://github.com/SRKRZ23/atlas) | Milan AI Week Hackathon | $32K+ (7 tracks) | ✅ Submitted May 19 |
-| 5 | **ECB v2** | arXiv submission | Academic | ⏳ Next week |
+<p align="center"><a href="https://github.com/SRKRZ23/frugal"><img src="https://raw.githubusercontent.com/SRKRZ23/frugal/main/assets/banner.png" alt="Frugal" width="100%"></a></p>
 
-**Total prize-eligibility this week: $242K+**
+**[Frugal](https://github.com/SRKRZ23/frugal)** — run AI agents cheap, local, and verified. Meters every
+model call, routes the cheap/local model first, and escalates to a strong model only when a real check
+fails — then proves quality in CI. Inference is now **~85% of the enterprise AI budget** (Uber burned its
+whole 2026 coding budget by April; one firm spent $500M/mo on Claude) — Frugal routes around it.
 
-## 📣 As featured in (build-in-public)
+- 📊 Measured on a real cluster: a **3B model matched a 14B on 83% of hard tasks**, ~4.7–11× faster → **~75–97% cheaper**
+- 🧪 **56 tests**, CI green, 0 runtime deps · 8 real bugs found & fixed by our own pressure/fuzz/concurrency suites
+- 💸 Modeled enterprise saving: at **$10M/mo** inference spend → **$60–90M/yr** ([math + company roster](https://github.com/SRKRZ23/frugal/blob/main/ENTERPRISE.md))
+- 🌐 **[Live site + interactive deck](https://frugal-cost-router.netlify.app)** · ★ **[Repo](https://github.com/SRKRZ23/frugal)** · Apache-2.0
 
-Four-of-five hackathons submitted in one week. Full ecosystem story posted on:
-- 💼 [**LinkedIn**](https://www.linkedin.com/posts/sardor-razikov-569a5327b_atlas-enterprise-multi-agent-system-ai-activity-7462457002317975552-ADGR) — long-form with resource compounding breakdown
-- 🐦 [**X / Twitter thread**](https://x.com/SardorRazi99093/status/2056690128613970060) — 5-tweet thread with sponsor tags
-- 📘 [**Facebook**](https://www.facebook.com/share/p/1Nr4M2WhUG/) — Russian personal long-form
+## 🏆 Recent highlights (2026)
+
+- 🥇 **REPOMIND — WON 1st place**, AMD Developer Hackathon **ACT I** (AI Agents track) **+ Outstanding Social Engagement** — prize: AMD Radeon AI PRO R9700 GPU + cash. [repo](https://github.com/SRKRZ23/repomind)
+- 🚀 **REPOMIND v3** — submitted to AMD Developer Hackathon **ACT II** (Track 3 · Unicorn); qualified in the automated pre-screen (human panel pending). On-prem coding agent + LLM cost-router.
+- 🌟 **Frugal** — new open-source LLM cost-routing / eval / MCP toolkit (above).
 
 ---
 
@@ -84,8 +85,8 @@ OWASP LLM Top 10 mapping → YAML policies → BobShell audit trail. Built with 
 6-layer governed pipeline: Voice → SOUF AI DPI gate → Gemini orchestrator → Featherless router → Tool executor → Ed25519 audit. 29/29 tests PASS in under 1 second. All 5 Milan AI Week sponsors integrated (Speechmatics + Featherless + Gemini + Vultr + Kraken).
 [Video walkthrough](https://youtu.be/i78OdyRYiOs) · [Lablab submission](https://lablab.ai/ai-hackathons/milan-ai-week-hackathon/atlas/atlas-enterprise-multi-agent-governance)
 
-### [REPOMIND](https://github.com/SRKRZ23/repomind) — Repo-Scale Coding Agent on AMD MI300X
-Open-source large-context (256K) FP8 inference on AMD MI300X. AMD Developer Hackathon 2026.
+### [REPOMIND](https://github.com/SRKRZ23/repomind) — Repo-Scale Coding Agent on AMD MI300X 🥇
+Open-source large-context (256K) FP8 inference on AMD MI300X. **WON 1st place — AMD Developer Hackathon ACT I (AI Agents track) + Outstanding Social Engagement.** ACT II (v3: on-prem agent + LLM cost-router) submitted, qualified in the automated pre-screen.
 
 ### [ECB v1](https://github.com/SRKRZ23/ecb) — Epistemic Curie Benchmark
 Quantitative framework for measuring when LLMs surrender independent reasoning under authority pressure. 7 frontier models, 2,520 measurements. Wilson 95% CI methodology.
@@ -100,7 +101,7 @@ Quantitative framework for measuring when LLMs surrender independent reasoning u
 - **Scholarship to Zhejiang University**
 - **Foundation Year at Leeds Beckett University**, UK
 - **Kaggle SPR Mammography: 7/371** (Top 1.9%, Medical AI)
-- **CVPR 2026 Gait Challenge: 2nd of 56** (sub40 = 0.90271)
+- **CVPR 2026 CV4CHL Gait Challenge** — Kaggle LB 2nd (0.90271); official 6th on the held-out set; Proceedings co-author
 - **AMD Developer Hackathon 2026 Track 1** with REPOMIND
 
 ---
